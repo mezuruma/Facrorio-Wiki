@@ -1,0 +1,239 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(image\ 2.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(#AA4F17, #321604);;
+    color: white;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 190px;
+    height: 190px;
+    margin: auto;
+}
+
+.logo h1 {
+    font-size: 75px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #272525;
+}
+/* Hero section styling */
+#hero {
+    padding: 30px 65px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.pididi {
+    display: flex;
+}
+
+#hero h2 {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+hr {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+#hero p {
+    width: 864px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.block {
+    background: linear-gradient(#313131 20%, #4A4949 0%);
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.block h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.block p {
+    margin: 5px 0;
+}
+
+.nested {
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.picture {
+    display: flex;
+    margin: 100px 197px 100px 197px;
+    font-size: 28px;
+}
+
+.planet1, .planet2, .planet3 {
+    padding-right: 70px
+}
+
+#section1 h2 {
+    font-size: 67px;
+}
+
+#Vylkan {
+    padding: 65px
+}
+
+#Vylkan p, ul, ol{
+    text-align: left;
+    font-size: 28px;
+}
+
+#Vylkan ul, ol{
+    margin-inline-start: 50px;
+}
+
+#Vylkan h2{
+    font-size: 67px;
+}
+
+#Vylkan img {
+    margin: 173px 90px 0px 60px;
+    width: 315px;
+    height: 315px;
+}
+
+#Gleb {
+    padding: 65px
+}
+
+#Gleb p, ul, ol{
+    text-align: left;
+    font-size: 28px;
+}
+
+#Gleb ul, ol{
+    margin-inline-start: 50px;
+}
+
+#Gleb h2{
+    font-size: 67px;
+}
+
+#Gleb img {
+    margin: 173px 90px 0px 60px;
+    width: 315px;
+    height: 315px;
+}
+
+#Gora {
+    padding: 65px
+}
+
+#Gora p, ul, ol{
+    text-align: left;
+    font-size: 28px;
+}
+
+#Gora ul, ol{
+    margin-inline-start: 50px;
+}
+
+#Gora h2{
+    font-size: 67px;
+}
+
+#Gora img {
+    margin: 173px 90px 0px 60px;
+    width: 315px;
+    height: 315px;
+}
+
+#Akvil {
+    padding: 65px
+}
+
+#Akvil p, ul, ol{
+    text-align: left;
+    font-size: 28px;
+}
+
+#Akvil ul, ol{
+    margin-inline-start: 50px;
+}
+
+#Akvil h2 {
+    font-size: 67px;
+}
+
+#Akvil img {
+    margin: 173px 90px 0px 60px;
+    width: 315px;
+    height: 315px;
+}
+
+.text {
+    width: 900px;
+}
+.Ptext {
+    display: flex;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
